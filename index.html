@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta name="" content="Arduino, Brazo Robotico, Servomotor, Impresion 3D, Drivers,">
+    <link rel="stylesheet" href="style.css">
+     <title>Mano Robotica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!-- CDN de Font Awesome (versión gratuita) -->
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+<section id="Indice">
+<header class="menu-header">
+  <div class="menu-container">
+    
+    <label class="brand">
+      <img src="mano.gif" alt="Logo">
+    </label>
+
+    <ul class="menu-navegacion">
+  <li><a href="#card-introduccion">Introducción</a></li>
+  <li><a href="#card-objetivos">Objetivos</a></li>
+  <li><a href="#card-funcionamiento">Funcionamiento</a></li>
+  <li><a href="#card-areas">Áreas aplicadas</a></li>
+  <li><a href="#card-conclusion">Conclusión</a></li>
+  <li><a href="#card-componentes">Componentes</a></li>
+</ul>
+
+
+    <button onclick="mostrarTexto()" class="flecha">⬇️</button>
+
+  </div>
+</header>
+</section>
+
+  <!--Texto oculto que se muestra al hacer clic -->
+  <section id="info">
+    <div id="textoProyecto" style="display: none;">
+      <h1>Mas info</h1>
+      <div class="letras">
+         <p>¿Alguna vez pensaste en tener tu propia <span class="highlight">mano robótica</span>? Nosotros sí, y decidimos hacerlo realidad.</p>
+
+         <p>La idea nació de querer crear algo divertido, educativo y diferente. Algo que haga que la tecnología deje de ser solo teoría y se vuelva práctica y entretenida.</p>
+
+         <p>Con nuestra <span class="highlight">mano robótica</span>, queremos que los estudiantes se animen a explorar, tocar, programar y mover cada pieza. Que aprendan jugando y descubran que la robótica no es solo para genios: <span class="highlight">¡cualquiera puede crear!</span></p>
+
+         <p>Además, soñamos con que este proyecto inspire a otros a hacer sus propios inventos tecnológicos. Imaginamos un futuro donde la curiosidad y la creatividad sean la base de nuevos proyectos, y que nuestra <span class="highlight">mano robótica</span> sea solo el comienzo.</p>
+
+         <p>Si lo pensamos como un “emprendimiento”, sería educativo, tecnológico y sin fines de lucro. Pensado para que más personas tengan la oportunidad de aprender, experimentar y <span class="highlight">divertirse con la tecnología</span>.</p>
+         
+        
+         <h1>Integrantes del proyecto</h1>
+          <div class="lista-integrantes">
+         <p>Daiana Blanco--Emanuel Taboada--Franco Benitez<br>Kiara Mettica--Ignacio Avari<br>Nicol Montojo--Dylan Conticello</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+    <article>
+      <h1 aling="left"><u>Mano Robotica</u></h1>
+
+<section class="introduccion card-moderm" id="card-introduccion">
+  <div class="card-modern">
+    
+    <h2><i class="fa-solid fa-robot"></i> Introducción</h2>
+
+    <p>
+      La mano robótica es un proyecto que busca replicar los movimientos de una 
+      mano humana utilizando principios de mecánica, electrónica y programación. 
+      Es una propuesta educativa y tecnológica que permite experimentar con conceptos 
+      de robótica aplicada, control de movimientos y simulación de funciones corporales 
+      mediante sistemas artificiales.
+      <br><br>
+      Su desarrollo impulsa la creatividad, el pensamiento lógico y la capacidad de 
+      resolver problemas reales con herramientas accesibles.
+    </p>
+
+  </div>
+</section>
+
+
+<section id="objetivos_funcionamiento">
+  <div class="objetivos" id="card-objetivos">
+    <h2><i class="fa-solid fa-bullseye"></i> Objetivos del Proyecto</h2>
+
+    <ul>
+      <li>Reproducir los movimientos básicos de una mano humana, como abrir, cerrar y flexionar los dedos.</li>
+      <li>Integrar conocimientos de mecánica, electrónica, diseño y programación.</li>
+      <li>Fomentar el trabajo en equipo y el aprendizaje práctico mediante experimentación.</li>
+      <li>Explorar aplicaciones de la robótica en dispositivos funcionales.</li>
+      <li>Estimular el interés por la innovación y la tecnología.</li>
+    </ul>
+  </div>
+
+  <div class="funcionamientos" id="card-funcionamiento">
+   <h2><i class="fa-solid fa-gears"></i> Funcionamiento</h2>
+
+    <p>
+      El sistema de la mano robótica se basa en un conjunto de motores controlados por una 
+      placa programable. Cada dedo está conectado a un mecanismo que permite su movimiento 
+      individual o conjunto, simulando la acción de una mano real.
+      <br><br>
+      Las instrucciones se cargan en la placa mediante código, permitiendo que el prototipo 
+      reaccione a órdenes o estímulos. Los dedos pueden moverse mediante hilos, ejes o piezas 
+      articuladas que responden a la programación establecida.
+    </p>
+  </div>
+</section>
+
+<section id="conocimientos-aplicados">
+  <div class="conocimientos" id="card-areas">
+>
+      <h2><i class="fa-solid fa-lightbulb"></i> Áreas de Conocimiento Aplicadas</h2>
+
+      <ul>
+        <li><strong>Electrónica:</strong> conexión de componentes y control de corriente.</li>
+        <li><strong>Programación:</strong> uso de lenguajes como C/C++ para programar la placa.</li>
+        <li><strong>Mecánica:</strong> diseño de articulaciones y mecanismos de movimiento.</li>
+        <li><strong>Diseño digital:</strong> creación de la estructura y sus piezas.</li>
+        <li><strong>Pensamiento lógico:</strong> fundamental en cada etapa del proceso.</li>
+      </ul>
+  </div>
+
+  <div class="conclusion" id="card-conclusion">
+   <h2><i class="fa-solid fa-check-circle"></i> Conclusión</h2>
+
+    <p>
+      La mano robótica representa una experiencia educativa completa donde la tecnología 
+      se convierte en una herramienta para aprender haciendo. Demuestra que es posible 
+      desarrollar sistemas funcionales que imiten acciones humanas utilizando recursos 
+      accesibles y conocimientos adquiridos.
+      <br><br>
+      Además, invita a reflexionar sobre el potencial de la robótica como puente entre la 
+      innovación y las necesidades reales de las personas.
+    </p>
+  </div>
+</section>
+
+<section id="Tit-componente"> 
+    <div class="titulo_componentes" id="card-componentes">
+        <U><h2 id="componentes" aling="center">COMPONENTES UTILIZADOS EN LA MANO ROBOTICA</U></h2>
+    </div>   
+</section>    
+
+<section id="Componentes">
+
+  <div class="carousel-container">
+    <div class="carousel" id="carousel">
+
+        <!-- Item 1 -->
+        <div class="item">
+            <img src="arduino-uno.webp" alt="">
+            <h3>Arduino UNO</h3>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="item">
+            <img src="cable-jumper.png" alt="">
+            <h3>Cable jumper</h3>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="item">
+            <img src="usb.png" alt="">
+            <h3>USB Arduino</h3>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="item">
+            <img src="fuente-alimentacion.png" alt="">
+            <h3>Fuente de Alimentación</h3>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="item">
+            <img src="driverpca.webp" alt="">
+            <h3>Driver pca</h3>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="item">
+            <img src="servo.motor.webp" alt="">
+            <h3>Servo Motores</h3>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="item">
+            <img src="mod.transceptor.webp" alt="">
+            <h3>Modulo Transceptor</h3>
+        </div>
+    </div>
+    <button class="btn prev" onclick="rotateCarousel(-1)">&#10094;</button>
+    <button class="btn next" onclick="rotateCarousel(1)">&#10095;</button>
+</div>
+ </section>
+
+<section id="caja">
+    <div class="video">
+        <video width="640" height="360" controls>
+        <source src="presentacion-mano.mp4" type="video/mp4">
+         Tu navegador no puede reproducir este video.
+         </video>
+    </div>
+</section>
+
+<section id="final">
+
+  <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Mi Proyecto</h3>
+            <p>Mano robótica – Tecnología, innovación y desarrollo.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Secciones</h3>
+            <ul>
+                <li><a href="#card-introduccion">Introducción</a></li>
+                <li><a href="#card-funcionamiento">Funcionamiento</a></li>
+                <li><a href="#componentes">Componentes</a></li>
+                <li><a href="#card-conclusion">Conclusión</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contacto</h3>
+            <p>Email: manorobotica46@gmail.com</p>
+            <h3>Escuela</h3>
+             <a href="https://www.tecnica3hurlingham.com/" target="_blank">
+            <p>E.E.S.T N°3 VÍCTOR MERCANTE</p>
+            </a>
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/mano_robotica_7a/?next=%2F"  target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61582136240330" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@Manorobotica-u8s" target="_blank" ><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 – Proyecto Mano Robótica | Todos los derechos reservados
+    </div>
+
+</footer>
+</section>
+
+<script>
+let angle = 0;
+const totalItems = 7;
+const step = 360 / totalItems;
+
+function rotateCarousel(direction) {
+    angle += direction * step;
+    document.getElementById("carousel").style.transform =
+        `rotateY(${angle}deg)`;
+}
+</script>
+
+<script>
+function mostrarTexto() {
+    const texto = document.getElementById("textoProyecto");
+
+    if (texto.style.display === "none" || texto.style.display === "") {
+        texto.style.display = "block";
+        texto.style.opacity = 1;
+    } else {
+        texto.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
